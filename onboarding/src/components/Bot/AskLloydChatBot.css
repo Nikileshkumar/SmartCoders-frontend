@@ -1,0 +1,31 @@
+.asklloyd-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1050;
+}
+
+.asklloyd-toggle {
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.asklloyd-card {
+  width: 300px;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.asklloyd-body {
+  overflow-y: auto;
+  flex-grow: 1;
+  max-height: 300px;
+}
+
+.asklloyd-messages {
+  max-height: 230px;
+  overflow-y: auto;
+}

@@ -1,0 +1,140 @@
+{
+  "pages": [
+    {
+      "pageIndex": 1,
+      "title": "Personal Details",
+      "fields": [
+        {
+          "label": "Do you have a partner or spouse?",
+          "name": "havePartnerSpouse",
+          "type": "select",
+          "required": true,
+          "validation": {},
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "accept": [""]
+        },
+        {
+          "label": "Do you own or rent your home?",
+          "name": "ownRentHome",
+          "type": "select",
+          "required": true,
+          "validation": {},
+          "options": [
+            "I own- no mortgage",
+            "I own - with a mortgage",
+            "I rent privately"
+          ],
+          "accept": [""]
+        },
+        {
+          "label": "What's your monthly mortgage payment (your share only)?",
+          "name": "mortgagePayment",
+          "type": "number",
+          "required": true,
+          "validation": {
+            "regex": "^[0-9]+$"
+          },
+          "options": [""],
+          "accept": [""]
+        },
+        {
+          "label": "what do you pay each month for child-care, tuition fees or maintenance (your share only)?",
+          "name": "maintenance",
+          "type": "number",
+          "required": true,
+          "validation": {
+            "regex": "^[0-9]+$"
+          },
+          "options": [""],
+          "accept": [""]
+        }
+      ]
+    },
+    {
+      "pageIndex": 2,
+      "title": "Employment Info",
+      "fields": [
+        {
+          "label": "What do you do for a living?",
+          "name": "workForLiving",
+          "type": "select",
+          "required": true,
+          "validation": {},
+          "options": [
+            "I work full time",
+            "I work part time"
+          ],
+          "accept": [""]
+        },
+        {
+          "label": "What kind of work do you do?",
+          "name": "workType",
+          "type": "select",
+          "required": true,
+          "validation": {},
+          "options": [
+            "Manager",
+            "professional"
+          ],
+          "accept": [""]
+        },
+        {
+          "label": "Who do you work for?",
+          "name": "employerName",
+          "type": "text",
+          "required": true,
+          "validation": {},
+          "options": [""],
+          "accept": [""]
+        },
+        {
+          "label": "what's your monthly income after deductions",
+          "name": "incomeAfterDeductions",
+          "type": "text",
+          "required": true,
+          "validation": {
+            "regex": "^[0-9]+$"
+          },
+          "options": [""],
+          "accept": [""]
+        },
+        {
+          "label": "what's your total amount of savings?",
+          "name": "totalSavings",
+          "type": "text",
+          "required": true,
+          "validation": {
+            "regex": "^[0-9]+$"
+          },
+          "options": [""],
+          "accept": [""]
+        }
+      ]
+    },
+    {
+      "pageIndex": 3,
+      "title": "Identification Upload",
+      "fields": [
+        {
+          "label": "Passport",
+          "name": "passport",
+          "type": "text",
+          "required": true,
+          "validation": {
+            "regex": "^[A-Z]{1}[0-9]{7}[A-Z]{1}$"
+          }
+        },
+        {
+          "label": "Passport Upload",
+          "name": "passportDocument",
+          "type": "file",
+          "required": true,
+          "accept": [".pdf", ".jpg"]
+        }
+      ]
+    }
+  ]
+}
