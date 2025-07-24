@@ -47,7 +47,7 @@ const AskLloydChatBot: React.FC<AskLloydChatBotProps> = ({ journeyType, appId })
     setInput('');
 
     try {
-      await axios.post('http://localhost:8080/api/customerfeedback', {
+      await axios.post('http://35.200.204.14/api/customerfeedback', {
         applicationid: appId,
         feedback: input,
         timestamp: new Date().toISOString()
