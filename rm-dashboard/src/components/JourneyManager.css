@@ -1,0 +1,64 @@
+.journey-manager-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.journey-form {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.journey-form div {
+  margin-bottom: 15px;
+}
+
+.journey-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.journey-form input,
+.journey-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.journey-form button {
+  background-color: #007a33;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.journey-table-wrapper {
+  overflow-x: auto;
+}
+
+.journey-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.journey-table th,
+.journey-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: top;
+}
+
+.journey-table th {
+  background-color: #e5f5ec;
+}

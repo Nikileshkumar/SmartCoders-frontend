@@ -1,0 +1,50 @@
+.container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #004b29; /* Lloyds Bank deep green */
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007a33;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #005f27;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  background-color: white;
+  border-left: 4px solid #007a33;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.audit-date {
+  font-size: 13px;
+  color: #555;
+}
+
+.audit-note {
+  font-size: 15px;
+  color: #222;
+  margin-top: 6px;
+}
